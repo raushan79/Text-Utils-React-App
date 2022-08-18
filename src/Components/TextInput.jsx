@@ -51,9 +51,11 @@ function TextInput() {
       <Textarea
         value={value}
         onChange={handleInputChange}
+        height={"250px"}
         placeholder="Type Text here"
         margin={"25px"}
        padding="10px"
+       overflow={'scroll'}
         
       />
        <Stack spacing={"auto"} direction='row' align='center' margin={"0px 30px 0px 30px"}>
