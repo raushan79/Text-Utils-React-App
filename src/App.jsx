@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import TextInput from './Components/TextInput';
 
 function App() {
   return (
     <div>
-        Text Utils App in React
-      
+        
+      <TextInput/>
     </div>
   )
 }
